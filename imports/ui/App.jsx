@@ -17,6 +17,7 @@ class App extends Component {
         Tasks.insert({
             text,
             createdAt: new Date(), // current time
+            checked: false,
         });
 
         // Clear form
