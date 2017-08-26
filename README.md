@@ -59,3 +59,11 @@ meteor remove autopublish
 ```
 meteor npm install --save classnames
 ```
+### Testing
+```
+meteor add practicalmeteor:mocha    # to add a test driver for Mocha
+```
+```
+meteor test --driver-package practicalmeteor:mocha  # to run app in test mode
+```
+
